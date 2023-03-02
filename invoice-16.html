@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>INVO - Invoice HTML5 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <!-- External CSS libraries -->
+    <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Invoice 16 start -->
+<div class="invoice-16 invoice-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="invoice-inner-9" id="invoice_wrapper">
+                    <div class="invoice-top">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="logo">
+                                    <img class="logo" src="assets/img/logo.png" alt="logo">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="invoice">
+                                    <h1>Invoice # <span>0043128641</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="invoice-info">
+                        <div class="row">
+                            <div class="col-sm-6 mb-50">
+                                <div class="invoice-number">
+                                    <h4 class="inv-title-1">Invoice date:</h4>
+                                    <p class="invo-addr-1">
+                                        21/09/2021
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-50">
+                                <div class="invoice-number text-end">
+                                    <h4 class="inv-title-1">Due date:</h4>
+                                    <p class="invo-addr-1">
+                                        21/09/2021
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 mb-50">
+                                <h4 class="inv-title-1">Supplier</h4>
+                                <p class="inv-from-1">Theme Vessel</p>
+                                <p class="inv-from-2">21-12 Green Street, Meherpur, Bangladesh</p>
+                            </div>
+                            <div class="col-sm-6 text-end mb-50">
+                                <h4 class="inv-title-1">Customer</h4>
+                                <p class="inv-from-1">Md Sobuz Vodro</p>
+                                <p class="inv-from-2">329 Queensberry Street, North Melbourne VIC 3051, Australia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="order-summary">
+                        <div class="table-outer">
+                            <table class="default-table invoice-table">
+                                <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th>Price</th>
+                                    <th>VAT (20%)</th>
+                                    <th>Total</th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <tr>
+                                    <td>Standard Plan</td>
+                                    <td>$443.00 </td>
+                                    <td>$921.80</td>
+                                    <td>$9243</td>
+                                </tr>
+                                <tr>
+                                    <td>Extra Plan</td>
+                                    <td>$413.00 </td>
+                                    <td>$912.80 </td>
+                                    <td>$5943</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Total Due</strong></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><strong>$9,750</strong></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="invoice-informeshon-footer">
+                        <ul>
+                            <li><a href="https://themeforest.net/user/themevessel/portfolio">www.themevessel.com</a></li>
+                            <li><a href="mailto:sales@hotelempire.com">info@themevessel.com</a></li>
+                            <li><a href="tel:+088-01737-133959">+088 01737 133959</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="invoice-btn-section clearfix d-print-none">
+                    <a href="javascript:window.print()" class="btn btn-lg btn-print">
+                        <i class="fa fa-print"></i> Print Invoice
+                    </a>
+                    <a id="invoice_download_btn" class="btn btn-lg btn-download">
+                        <i class="fa fa-download"></i> Download Invoice
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Invoice 16 end -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jspdf.min.js"></script>
+<script src="assets/js/html2canvas.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
